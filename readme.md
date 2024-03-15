@@ -1,1 +1,1 @@
-![Build Status](https://github.com/LiliiaStarinskaya/gh-actions-4.3.1/blob/main/.github/workflows/blank.yml/badge.svg)
+[![CI](https://github.com/LiliiaStarinskaya/gh-actions-4.3.1/actions/workflows/blank.yml/badge.svg)](https://github.com/LiliiaStarinskaya/gh-actions-4.3.1/actions/workflows/blank.yml)
