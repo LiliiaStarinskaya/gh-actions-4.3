@@ -33,5 +33,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
-          postman login --with-api-key PMAK-65f38fbcd1dfad000124f950-6bc1af945db50ec070de21eac0151c2101
+          postman login --with-api-key ${{API_KEY}}
           postman collection run "postman/collections/Verifier.json" -e "Test env.postman_environment copy.json"
